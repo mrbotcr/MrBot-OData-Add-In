@@ -5,16 +5,8 @@ namespace MrBotAddIn
     public class conexionesOData
     {
         [Category("Connection")]
-        [Description("Url of the OData server.")]
-
-        public string Url
-        {
-            get;
-            set;
-        }
-
-        [Category("Connection")]
         [Description("Name to identify the connection.")]
+        [DisplayName("Connection name")]
 
         public string Name
         {
@@ -23,7 +15,18 @@ namespace MrBotAddIn
         }
 
         [Category("Connection")]
+        [Description("URL of the OData service.")]
+        [DisplayName("URL to the OData service")]
+
+        public string Url
+        {
+            get;
+            set;
+        }
+
+        [Category("Connection")]
         [Description("Username.")]
+        [DisplayName("User name")]
 
         public string Username
         {

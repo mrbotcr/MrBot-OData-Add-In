@@ -48,7 +48,7 @@
             this.propertyGrid1.MinimumSize = new System.Drawing.Size(506, 200);
             this.propertyGrid1.Name = "propertyGrid1";
             this.propertyGrid1.PropertySort = System.Windows.Forms.PropertySort.NoSort;
-            this.propertyGrid1.Size = new System.Drawing.Size(527, 200);
+            this.propertyGrid1.Size = new System.Drawing.Size(675, 200);
             this.propertyGrid1.TabIndex = 1;
             this.propertyGrid1.ToolbarVisible = false;
             this.propertyGrid1.PropertyValueChanged += new System.Windows.Forms.PropertyValueChangedEventHandler(this.propertyGrid1_PropertyValueChanged);
@@ -62,7 +62,7 @@
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(3, 43);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(257, 35);
+            this.button2.Size = new System.Drawing.Size(331, 35);
             this.button2.TabIndex = 2;
             this.button2.Text = "Create";
             this.button2.UseVisualStyleBackColor = true;
@@ -74,9 +74,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(266, 43);
+            this.button3.Location = new System.Drawing.Point(340, 43);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(258, 35);
+            this.button3.Size = new System.Drawing.Size(332, 35);
             this.button3.TabIndex = 3;
             this.button3.Text = "Cancel";
             this.button3.UseVisualStyleBackColor = true;
@@ -88,9 +88,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(266, 3);
+            this.button1.Location = new System.Drawing.Point(340, 3);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(258, 34);
+            this.button1.Size = new System.Drawing.Size(332, 34);
             this.button1.TabIndex = 4;
             this.button1.Text = "Test parameters";
             this.button1.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(257, 40);
+            this.label1.Size = new System.Drawing.Size(331, 40);
             this.label1.TabIndex = 10;
             this.label1.Text = "Label";
             // 
@@ -126,7 +126,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(527, 81);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(675, 81);
             this.tableLayoutPanel1.TabIndex = 11;
             // 
             // nuevaConexion
@@ -134,7 +134,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(529, 281);
+            this.ClientSize = new System.Drawing.Size(677, 281);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.propertyGrid1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -142,6 +142,7 @@
             this.Name = "nuevaConexion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create connection";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.nuevaConexion_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
