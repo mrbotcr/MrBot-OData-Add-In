@@ -8,7 +8,7 @@ Other features are:
 - Support different connections per sheet
 - Data changes and connection settings are stored off-line in the Excel file. 
 
-Use the [MSI Installer](https://github.com/mrbotcr/MrBot-OData-Client/raw/Version2.0/MrBotAddIn-Setup/Release/MrBotAddIn-Setup.msi) to the install the Add-in.
+Use the [MSI Installer](https://github.com/qlands/MrBot-OData-Add-In/releases/tag/1.0.0) to the install the Add-in version 1.0.0.
 
 ## Documentation
 
