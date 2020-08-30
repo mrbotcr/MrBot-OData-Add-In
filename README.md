@@ -10,5 +10,5 @@ Other features are:
 
 Use the [MSI Installer](https://github.com/mrbotcr/MrBot-OData-Client/raw/Version2.0/MrBotAddIn-Setup/Release/MrBotAddIn-Setup.msi) to the install the Add-in.
 
-You can modify the code using [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
+You can modify the code using [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/). You also need to install the [Microsoft Visual Studio Installer Projects Extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects).
 
