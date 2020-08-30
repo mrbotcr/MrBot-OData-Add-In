@@ -101,7 +101,7 @@ namespace MrBotAddIn
                     //Define the URL
                     Uri uriOdata = new Uri(datosDeConexion.Url);
                     odcSettings.BaseUri = uriOdata;
-                    odcSettings.Credentials = new NetworkCredential(datosDeConexion.Username, datosDeConexion.Password);
+                    odcSettings.Credentials = new NetworkCredential(datosDeConexion.Username, datosDeConexion.Password);                    
                     odcSettings.BeforeRequest = requestMessage =>
                     {
                         requestMessage.Headers.Accept.Clear();
@@ -116,9 +116,9 @@ namespace MrBotAddIn
 
                     IEdmModel metadata = await client.GetMetadataAsync<IEdmModel>();
                     var entityTypes = metadata.SchemaElements.OfType<IEdmEntityType>().ToArray();
-                    label1.Text = "Successful connection...";
+                    label1.Text = "Connection successful";
                     label1.ForeColor = Color.Green;
-                    button2.Enabled = true;
+                    button2.Enabled = true;                    
                 }
                 else
                 {
@@ -129,9 +129,14 @@ namespace MrBotAddIn
                 }
             }catch(Exception ex)
             {
-                label1.Text = "Connection not established...";
+                label1.Text = "Cannot connect to the OData service";
                 label1.ForeColor = Color.Red;
             }
+        }
+
+        private void nuevaConexion_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Owner.Enabled = true;
         }
     }
 

@@ -50,10 +50,10 @@ namespace MrBotAddIn
             var updates = listOfChanges.Where(x => x.ch_action == "update");
             var deletes = listOfChanges.Where(x => x.ch_action == "delete");
             var groupsOfUpdates = updates.GroupBy(x => x.ch_idRow);
-            ChangeText("Number of lines to EDIT:"+ groupsOfUpdates.Count().ToString()+ "\n", Color.Orange);
-            ChangeText("Number of lines to DELETE:"+ deletes.Count().ToString()+ "\n", Color.Orange);
-            ChangeText("Number of lines to INSERT:" + numberOfInserts.Count.ToString() + "\n", Color.Orange);
-            ChangeText("Click 'Start' to start the process ...\n", Color.Black);
+            ChangeText("Number of edited lines to be committed: "+ groupsOfUpdates.Count().ToString()+ "\n", Color.Orange);
+            ChangeText("Number of deleted lines to be committed: " + deletes.Count().ToString()+ "\n", Color.Orange);
+            ChangeText("Number of inserted lines to be committed: " + numberOfInserts.Count.ToString() + "\n", Color.Orange);
+            ChangeText("Click the 'Commit button' to start the process ...\n", Color.Black);
             progressBar1.Maximum = groupsOfUpdates.Count() + deletes.Count() + numberOfInserts.Count;
         }
 

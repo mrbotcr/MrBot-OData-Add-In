@@ -63,16 +63,6 @@ namespace MrBotAddIn.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap download_more {
-            get {
-                object obj = ResourceManager.GetObject("download_more", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap favicon_1_ {
             get {
                 object obj = ResourceManager.GetObject("favicon(1)", resourceCulture);
@@ -96,36 +86,6 @@ namespace MrBotAddIn.Properties {
         internal static System.Drawing.Bitmap Icono_145x72px_03 {
             get {
                 object obj = ResourceManager.GetObject("Icono 145x72px-03", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Iconos_WEB_MrBot_fondo_blanco_141 {
-            get {
-                object obj = ResourceManager.GetObject("Iconos WEB MrBot fondo blanco-141", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Iconos_WEB_MrBot_fondo_blanco_16 {
-            get {
-                object obj = ResourceManager.GetObject("Iconos WEB MrBot fondo blanco-16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Iconos_WEB_MrBot_fondo_blanco_17 {
-            get {
-                object obj = ResourceManager.GetObject("Iconos WEB MrBot fondo blanco-17", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -314,15 +314,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Iconos WEB MrBot fondo blanco-141.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Iconos WEB MrBot fondo blanco-17.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Iconos WEB MrBot fondo blanco-16.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Icono 145x72px-03.png" />
   </ItemGroup>
   <ItemGroup>
@@ -336,9 +327,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\favicon%281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download_more.png" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

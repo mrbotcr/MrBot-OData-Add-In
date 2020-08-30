@@ -72,7 +72,7 @@
             // button1
             // 
             this.button1.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button1.Image = global::MrBotAddIn.Properties.Resources.Iconos_WEB_MrBot_fondo_blanco_141;
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.Label = "Connect";
             this.button1.Name = "button1";
             this.button1.ShowImage = true;
@@ -81,7 +81,7 @@
             // button7
             // 
             this.button7.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button7.Image = global::MrBotAddIn.Properties.Resources.Iconos_WEB_MrBot_fondo_blanco_16;
+            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
             this.button7.Label = "Refresh data";
             this.button7.Name = "button7";
             this.button7.ShowImage = true;
@@ -90,7 +90,7 @@
             // button4
             // 
             this.button4.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button4.Image = global::MrBotAddIn.Properties.Resources.download_more;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.Label = "Pull more records";
             this.button4.Name = "button4";
             this.button4.ScreenTip = "Pull more records";
@@ -108,7 +108,7 @@
             // button6
             // 
             this.button6.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.button6.Image = global::MrBotAddIn.Properties.Resources.Iconos_WEB_MrBot_fondo_blanco_17;
+            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.Label = "Commit changes";
             this.button6.Name = "button6";
             this.button6.ShowImage = true;
