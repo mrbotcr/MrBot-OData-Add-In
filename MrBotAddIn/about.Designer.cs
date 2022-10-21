@@ -79,16 +79,16 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(158, 13);
             this.label3.TabIndex = 14;
-            this.label3.Text = "MrBot Odata Add-In 2020.08.27";
+            this.label3.Text = "MrBot Odata Add-In 2022.10.21";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(13, 275);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(162, 13);
+            this.label4.Size = new System.Drawing.Size(169, 13);
             this.label4.TabIndex = 15;
-            this.label4.Text = "Build #2.0, built on Aug 27, 2020";
+            this.label4.Text = "Build #1.1.0, built on Oct 21, 2022";
             // 
             // label5
             // 
@@ -133,10 +133,10 @@
             this.linkLabel2.AutoSize = true;
             this.linkLabel2.Location = new System.Drawing.Point(67, 343);
             this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(42, 13);
+            this.linkLabel2.Size = new System.Drawing.Size(103, 13);
             this.linkLabel2.TabIndex = 20;
             this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "mrbotcr";
+            this.linkLabel2.Text = "MrBot-OData-Add-In";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // about

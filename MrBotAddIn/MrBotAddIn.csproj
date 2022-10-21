@@ -30,6 +30,9 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <DefineConstants>VSTO40</DefineConstants>
     <IsWebBootstrapper>False</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <BootstrapperEnabled>true</BootstrapperEnabled>
     <PublishUrl>C:\Users\laptop HP\Desktop\</PublishUrl>
     <InstallUrl />
@@ -45,14 +48,16 @@
     <FriendlyName>MrBotAddIn</FriendlyName>
     <OfficeApplicationDescription />
     <LoadBehavior>3</LoadBehavior>
-    <TargetFrameworkProfile />
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

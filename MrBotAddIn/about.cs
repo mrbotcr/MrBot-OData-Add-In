@@ -25,7 +25,7 @@ namespace MrBotAddIn
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Process.Start("https://github.com/mrbotcr");
+            Process.Start("https://github.com/qlands/MrBot-OData-Add-In");
         }
     }
 }
