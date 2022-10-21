@@ -84,8 +84,7 @@ namespace MrBotAddIn
         }
 
         private async void button1_Click(object sender, EventArgs e)
-        {
-            
+        {            
             try
             {
                 label1.Text = "Connecting......";
@@ -93,6 +92,9 @@ namespace MrBotAddIn
                 button2.Enabled = false;
                 if (datosDeConexion.Name != null & datosDeConexion.Url != null )
                 {
+
+                    System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+
                     /* 
                         We create an Odata Client Settings to define the URL 
                         with which we establish the connection
@@ -123,13 +125,14 @@ namespace MrBotAddIn
                 else
                 {
                     label1.Text = "";
+
                     label1.ForeColor = Color.Black;
                     button2.Enabled = false;
                     MessageBox.Show("Please complete all the information.");
                 }
             }catch(Exception ex)
-            {
-                label1.Text = "Cannot connect to the OData service";
+            {                
+                label1.Text = "Cannot connect to the OData service: " + ex.ToString();
                 label1.ForeColor = Color.Red;
             }
         }

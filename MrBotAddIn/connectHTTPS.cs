@@ -8,6 +8,8 @@ namespace MrBotAddIn
     {
         public ODataClient conectWithCredentials(conexionesOData conexionSeleccionada)
         {
+            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+
             ODataClientSettings odcSettings = new ODataClientSettings();
             //Define the URL
             Uri uriOdata = new Uri(conexionSeleccionada.Url);
